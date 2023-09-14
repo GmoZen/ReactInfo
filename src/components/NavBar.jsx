@@ -1,10 +1,12 @@
 import React from "react"
-import ReactDOM from "react-dom"
+import reactLogo from '../assets/react.svg'
 
 function NavBar() {
     return (
         <nav>
-            <h1>NavBar goes here</h1>
+            <img src={reactLogo} className="nav--icon"/>
+            <h3 className="nav--logo_text">ReactFacts</h3>
+            <h4 className="nav--title">React Course - Project 1</h4>
         </nav>
     )
 }
